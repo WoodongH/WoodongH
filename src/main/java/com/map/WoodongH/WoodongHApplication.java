@@ -1,0 +1,12 @@
+package com.map.WoodongH;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class WoodongHApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(WoodongHApplication.class, args);}
+
+}
