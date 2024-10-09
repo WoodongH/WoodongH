@@ -1,0 +1,17 @@
+.container {
+  height: 50px;
+  background-color: #b7e0ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .logo {
+    position: absolute;
+    left: 20px;
+  }
+
+  .title {
+    font-size: large;
+  }
+}

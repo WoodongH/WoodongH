@@ -1,3 +1,4 @@
+import './styles/_font.scss';
 import Headers from './components/Headers';
 import MapBox from './components/Map/MapBox';
 import SearchBox from './components/SearchBox';
