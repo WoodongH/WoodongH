@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Map } from 'react-kakao-maps-sdk';
+import { Map, MapTypeControl, ZoomControl } from 'react-kakao-maps-sdk';
 import ClickMarker from './ClickMarker';
 import '../../styles/Map/MapBox.scss';
 
@@ -28,6 +28,8 @@ const MapBox = () => {
       // }}
       level={3} // 지도의 확대 레벨
     >
+      <MapTypeControl position={'TOPRIGHT'} />
+      <ZoomControl position={'RIGHT'} />
       {positions.map((position, index) => (
         <ClickMarker
           index={index}
