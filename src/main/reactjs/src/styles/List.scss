@@ -1,0 +1,29 @@
+.name {
+  margin: 15px 0 10px 10px;
+}
+.infoContainer {
+  display: flex;
+  justify-content: space-between;
+
+  .info {
+    margin-left: 10px;
+
+    .phoneNumber {
+      margin-bottom: 5px;
+    }
+  }
+
+  .link {
+    display: flex;
+
+    .distance {
+      margin-right: 3px;
+    }
+
+    img {
+      width: 15px;
+      height: 15px;
+      margin-right: 10px;
+    }
+  }
+}
