@@ -18,3 +18,9 @@
 @mixin font-style {
   font-family: 'HakgyoansimWoojuR', sans-serif;
 }
+
+@mixin tabButton {
+  background-color: #fff5cd;
+  width: 45%;
+  line-height: 50px;
+}

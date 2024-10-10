@@ -1,0 +1,25 @@
+@import './utils';
+
+.tapContainer {
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  text-align: center;
+  //   font-weight: bold;
+  cursor: pointer;
+  font-size: large;
+
+  .list {
+    @include tabButton;
+  }
+
+  .map {
+    @include tabButton;
+  }
+
+  .active {
+    background-color: #ffcfb3;
+    font-weight: bold;
+  }
+}
