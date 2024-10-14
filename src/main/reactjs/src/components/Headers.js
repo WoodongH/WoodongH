@@ -1,11 +1,11 @@
 import React from 'react';
 import '../styles/Headers.scss';
 
-const headers = () => {
+const headers = ({ isMain }) => {
   return (
     <nav className="container">
-      <div className="logo">로고</div>
-      <div className="title">소아과 병원 찾기</div>
+      <img className="logo" src={isMain ? 'hospital.png' : 'back.png'} alt="" />
+      <div className="title">{isMain ? '소아과 병원 찾기' : '상세 정보'}</div>
     </nav>
   );
 };

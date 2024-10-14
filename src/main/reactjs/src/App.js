@@ -1,14 +1,12 @@
 import './styles/_font.scss';
-import Headers from './components/Headers';
-import MapBox from './components/Map/MapBox';
-import SearchBox from './components/SearchBox';
+import MainPage from './pages/MainPage';
+import DetailPage from './pages/DetailPage';
 
 function App() {
   return (
     <div className="App">
-      <Headers />
-      <SearchBox />
-      <MapBox />
+      {/* <MainPage /> */}
+      <DetailPage />
     </div>
   );
 }
