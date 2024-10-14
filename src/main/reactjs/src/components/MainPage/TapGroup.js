@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/TapGroup.scss';
+import '../../styles/TapGroup.scss';
 
 const TapGroup = ({ actionTab, setActionTab }) => {
   return (

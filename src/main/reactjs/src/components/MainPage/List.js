@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/List.scss';
+import '../../styles/List.scss';
 
 const hospitalData = [
   {
