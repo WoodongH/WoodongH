@@ -1,0 +1,43 @@
+.wrap {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+
+  .title {
+    background-color: rgb(183, 224, 255, 0.5);
+    padding: 1px 0;
+
+    p {
+      font-size: 25px;
+      font-weight: bold;
+      margin: 10px auto;
+      text-align: center;
+    }
+
+    img {
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      cursor: pointer;
+      width: 17px;
+      height: 17px;
+    }
+  }
+
+  .body {
+    padding: 10px;
+
+    .address {
+      padding-bottom: 4px;
+    }
+
+    .phone-number {
+      padding-bottom: 3px;
+    }
+
+    .linkContainer {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}

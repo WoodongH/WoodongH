@@ -1,0 +1,29 @@
+.info-container {
+  margin-top: 35px;
+
+  .title {
+    margin-left: 20px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-size: large;
+    line-height: 1.3;
+
+    .grid-item {
+      padding: 15px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .grid-item.header {
+      background-color: #f2f2f2;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

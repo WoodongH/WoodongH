@@ -1,0 +1,49 @@
+@import './utils';
+
+.searchContainer {
+  //   background-color: #fff5cd;
+  //   background: rgba($color: #ffcfb3, $alpha: 0.4);
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  margin: 15px 10px;
+
+  .regionSearch {
+    display: flex;
+    padding-left: 30px;
+
+    .seoul {
+      padding: 3px 3px 1px 0;
+    }
+    #gu {
+      margin-right: 5px;
+      font-size: 15px;
+      padding: 1px 5px;
+      @include font-style;
+    }
+    #gun {
+      font-size: 15px;
+      padding: 1px 5px;
+      @include font-style;
+    }
+
+    button {
+      @include searchButton;
+      @include font-style;
+    }
+  }
+}
+
+.keywordContainer {
+  margin: 0 0 10px 35px;
+
+  input {
+    font-size: 15px;
+    padding: 1px 5px;
+    @include font-style;
+  }
+
+  button {
+    @include searchButton;
+    @include font-style;
+  }
+}

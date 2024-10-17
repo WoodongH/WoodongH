@@ -1,0 +1,16 @@
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto 20px;
+
+  a {
+    background-color: #fff5cd;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration-line: none;
+    color: inherit;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
